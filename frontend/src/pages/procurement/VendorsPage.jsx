@@ -1,4 +1,5 @@
-import ComingSoon from '../../components/ui/ComingSoon'
+import VendorManagement from '../../components/vendors/VendorManagement'
+
 export default function VendorsPage() {
-  return <ComingSoon title="Vendors" subtitle="Browse and manage vendors for procurement." />
+  return <VendorManagement />
 }
