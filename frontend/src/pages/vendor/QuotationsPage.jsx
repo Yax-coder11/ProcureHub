@@ -1,4 +1,5 @@
-import ComingSoon from '../../components/ui/ComingSoon'
+import QuotationManagement from '../../components/quotations/QuotationManagement'
+
 export default function QuotationsPage() {
-  return <ComingSoon title="My Quotations" subtitle="Quotations you have submitted." />
+  return <QuotationManagement />
 }
