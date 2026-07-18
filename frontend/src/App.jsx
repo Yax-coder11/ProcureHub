@@ -41,7 +41,7 @@ import VendorRfqsPage       from './pages/vendor/RfqsPage'
 import VendorQuotationsPage from './pages/vendor/QuotationsPage'
 import VendorPOsPage        from './pages/vendor/PurchaseOrdersPage'
 import VendorInvoicesPage   from './pages/vendor/InvoicesPage'
-import VendorProfilePage    from './pages/vendor/ProfilePage'
+import VendorProfilePage    from './pages/vendor/ProfilePage.tsx'
 
 // ── Route guard (auth + role) — single component for both concerns ────────
 import ProtectedRoute from './routes/ProtectedRoute'
